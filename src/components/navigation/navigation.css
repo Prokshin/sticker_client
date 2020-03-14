@@ -1,0 +1,28 @@
+.navigation {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navigation__block {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation__logo {
+  font-size: 30px;
+  font-weight: 900;
+}
+.navigation__login {
+  color: #f2ede9;
+  text-decoration: none;
+  margin-left: 5px;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+.navigation__login:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
