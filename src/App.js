@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import Navigation from "./components/navigation";
-import Card from "./components/card";
 import Stickers from "./components/stickers/stickers";
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
     <div className="App">
       <Navigation />
       <div className="content">
-        <Card />
         <Stickers />
       </div>
     </div>
